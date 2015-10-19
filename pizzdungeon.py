@@ -156,7 +156,6 @@ def dungeon_crawl(hero, selection):
                     elif dun_num == 3:
                         if area1:
                             print "You continue down the hall after toppling the enemies."
-                            print victory
                             area1 = False
                             area2 = True
                         elif area2:
