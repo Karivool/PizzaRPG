@@ -218,4 +218,5 @@ def main():
     print "R.I.P."
 
 
-main()
+if __name__ == "__main__":
+    main()
