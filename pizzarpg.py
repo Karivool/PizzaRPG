@@ -217,5 +217,9 @@ def main():
     print "Game over, you died!"
     print "R.I.P."
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 if __name__ == "__main__":
     main()
