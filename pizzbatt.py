@@ -8,7 +8,7 @@ import pizzspells
 def enemy_formation(dungeon_num):
     enemy_amount_easy = (1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3)
     enemy_amount_med = (1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 3)
-    enemy_amount_hard = (1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3)
+    enemy_amount_hard = (1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3)
     if dungeon_num == 0:
         enemy_list = enemy_amount_easy
     elif dungeon_num == 1:
@@ -31,6 +31,10 @@ def fight_battle(hero, dungeon_num, area5):
         elif dungeon_num == 1:
             enemy1 = copy.deepcopy(random.choice(pizzenemy.enemy_list[dungeon_num].values()))
             enemy2 = copy.deepcopy(pizzenemy.foe_cave_drweller)
+            enemy3 = copy.deepcopy(random.choice(pizzenemy.enemy_list[dungeon_num].values()))
+        elif dungeon_num == 2:
+            enemy1 = copy.deepcopy(random.choice(pizzenemy.enemy_list[dungeon_num].values()))
+            enemy2 = copy.deepcopy(pizzenemy.foe_trilbyous_pursuit)
             enemy3 = copy.deepcopy(random.choice(pizzenemy.enemy_list[dungeon_num].values()))
     else:
         enemy_num = enemy_formation(dungeon_num)

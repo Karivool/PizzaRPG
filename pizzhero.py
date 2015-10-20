@@ -268,7 +268,7 @@ class Protagonist(object):
         res_add_ttl = 0
         while self.exp >= self.exp_ttl:
             self.lvl += 1
-            self.exp_ttl = int(((self.lvl + 1) * (self.lvl * self.lvl) * 1.5 * 3.6))
+            self.exp_ttl = int(((self.lvl + 1) * (self.lvl * self.lvl) * 1.25 * 2.2))
             hp_add = int((self.hp_max + 1.9) * 1.08) - self.hp_max
             hp_add_ttl += hp_add
             self.hp_max += hp_add
