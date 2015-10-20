@@ -54,7 +54,7 @@ foe_mr_fedorable = Enemy("Mister Fedorable",         124, 124, 0, 0, 64, 0, 46, 
 foe_nacho_knife = Enemy("Nacho Knife Guy",           90,  90,  0, 0, 69, 0, 51, 49, 5,  19, 15, 35, 64,  True)
 foe_sir_nick = Enemy("Sir Nick Bird",                149, 149, 0, 0, 68, 0, 40, 12, 30, 42, 43, 27, 68,  True)
 foe_sam_of_rye = Enemy("Sam Of Rye",                 133, 133, 0, 0, 74, 0, 64, 30, 22, 37, 49, 21, 84,  True)
-foe_trilbyous_pursuit = Enemy("Trilbyous_Pursuit",   394, 394, 0, 0, 99, 0, 69, 20, 45, 50, 69, 90, 180, True)
+foe_trilbyous_pursuit = Enemy("Trilbyous Pursuit",   394, 394, 0, 0, 99, 0, 69, 20, 45, 50, 69, 90, 180, True)
 
 # ("", hp, hp_max, mp, mp_max, pwr, mag, skl, spd, lck, blck, res, gold, exp, True)
 
