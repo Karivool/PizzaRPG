@@ -49,12 +49,12 @@ foe_boulder_den_heifer = Enemy("Boulder Den Heifer", 85,  85,  0, 0, 58, 0, 20, 
 foe_earthly_moleling = Enemy("Earthly Moleling",     52,  52,  0, 0, 44, 0, 23, 16, 14, 15, 9,  11, 28,  True)
 foe_intercom_bat = Enemy("Intercom Bat",             46,  46,  0, 0, 42, 0, 22, 18, 13, 14, 13, 12, 27,  True)
 foe_eagle_two_please = Enemy("Eagle Two Please",     77,  77,  0, 0, 51, 0, 25, 24, 17, 19, 16, 14, 43,  True)
-foe_cave_drweller = Enemy("Cave Digging Drweller",   220, 220, 0, 0, 72, 0, 40, 9,  9,  36, 27, 80, 98,  True)
-foe_mr_fedorable = Enemy("Mister Fedorable",         124, 124, 0, 0, 64, 0, 46, 15, 25, 33, 37, 24, 56,  True)
-foe_nacho_knife = Enemy("Nacho Knife Guy",           90,  90,  0, 0, 69, 0, 51, 49, 5,  19, 15, 35, 64,  True)
-foe_sir_nick = Enemy("Sir Nick Bird",                149, 149, 0, 0, 68, 0, 40, 12, 30, 42, 43, 27, 68,  True)
-foe_sam_of_rye = Enemy("Sam Of Rye",                 133, 133, 0, 0, 74, 0, 64, 30, 22, 37, 49, 21, 84,  True)
-foe_trilbyous_pursuit = Enemy("Trilbyous Pursuit",   394, 394, 0, 0, 99, 0, 69, 20, 45, 50, 69, 90, 180, True)
+foe_cave_drweller = Enemy("Cave Digging Drweller",   220, 220, 0, 0, 72, 0, 40, 9,  9,  36, 27, 80, 104, True)
+foe_mr_fedorable = Enemy("Mister Fedorable",         124, 124, 0, 0, 64, 0, 46, 15, 25, 33, 37, 38, 77,  True)
+foe_nacho_knife = Enemy("Nacho Knife Guy",           90,  90,  0, 0, 69, 0, 51, 49, 5,  19, 15, 19, 86,  True)
+foe_sir_nick = Enemy("Sir Nick Bird",                149, 149, 0, 0, 68, 0, 40, 12, 30, 42, 43, 36, 78,  True)
+foe_sam_of_rye = Enemy("Sam Of Rye",                 133, 133, 0, 0, 74, 0, 64, 30, 22, 37, 49, 14, 97,  True)
+foe_trilbyous_pursuit = Enemy("Trilbyous Pursuit",   394, 394, 0, 0, 99, 0, 69, 20, 45, 50, 69, 90, 314, True)
 
 # ("", hp, hp_max, mp, mp_max, pwr, mag, skl, spd, lck, blck, res, gold, exp, True)
 
