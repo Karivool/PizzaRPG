@@ -138,7 +138,7 @@ class Protagonist(object):
                     if self.inv[int(command) - 1] == "Empty":
                         print "There's nothing in that slot!"
                     else:
-                        delete_item = self.inv[int(command) - 1].use_item(self)
+                        delete_item = self.inv[int(command) - 1].use_item()
                         if delete_item:
                             self.inv[int(command) - 1] = pizzitems.item_empty
                             if in_batt:
