@@ -103,6 +103,7 @@ class Protagonist(object):
 
     def spell_menu(self):
         print "%s's Spells" % self.name
+        print "%s / %s HP" % (self.hp, self.hp_ttl)
         print "%s / %s MP" % (self.mp, self.mp_ttl)
         print " "
         print "(1) %s %s . (2) %s %s . (3) %s %s" % (self.spells[0], self.spells[0].mp_str,
