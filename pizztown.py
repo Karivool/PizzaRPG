@@ -136,7 +136,7 @@ def inn(hero):
             comm_key = 0
             chat = random.randint(1, 6)
             if chat == 1:
-                print "Here at Brook Line Inn, we prefer to think of our bed bugs as 'bed pals'!"
+                print "Here at Brook N Lynne Inn, we prefer to think of our bed bugs as 'bed pals'!"
             elif chat == 2:
                 print "The reason your health and magic points improve so fast when you sleep with us?"
                 print "Our rooms are so unsettling your body does what it needs to leave right away!"
