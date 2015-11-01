@@ -13,11 +13,11 @@ def has_num(name):
 
 
 def intro(hero):
-    hero_sex = "blank"
-    hero_gen = "blank"
-    hero_he = "blank"
-    hero_his = "blank"
-    hero_him = "blank"
+    hero_sex = ""
+    hero_gen = ""
+    hero_he = ""
+    hero_his = ""
+    hero_him = ""
     hero.bad_key = False
     game_loaded = False
     comm_key = 0
